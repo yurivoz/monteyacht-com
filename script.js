@@ -152,7 +152,62 @@ sub_success:'You\'re in! We\'ll keep you posted on the best offers.',
 sub_sending:'Sending...',
 sub_error:'Something went wrong. Please try again.',
 meta_title:'MonteYacht — Premium Yacht Charter Montenegro',
-meta_desc:'Luxury yacht charter along the Adriatic coast of Montenegro. Day trips and weekly voyages aboard an 18-metre premium yacht. Book your charter today.'
+meta_desc:'Luxury yacht charter along the Adriatic coast of Montenegro. Day trips and weekly voyages aboard an 18-metre premium yacht. Book your charter today.',
+nav_gift:'Gift',
+gift_eyebrow:'The Perfect Gift',
+gift_h1:'Gift an Unforgettable Day at Sea',
+gift_sub:'Give someone special a luxury yacht experience along the Montenegrin coast. We\'ll deliver a beautiful certificate within 2 hours.',
+gift_how_eyebrow:'Simple & Elegant',
+gift_how_h2:'How It Works',
+gift_step1_h:'Choose Your Gift',
+gift_step1_p:'Pick an amount or a specific route package below.',
+gift_step2_h:'Fill in the Details',
+gift_step2_p:'Tell us the recipient\'s name and add a personal message.',
+gift_step3_h:'Receive the Certificate',
+gift_step3_p:'We\'ll send a stunning PDF certificate within 2 hours.',
+gift_options_eyebrow:'Choose Your Gift',
+gift_options_h2:'Gift Options',
+gift_tab_amount:'By Amount',
+gift_tab_package:'By Package',
+gift_amt_500:'A taste of the Adriatic',
+gift_amt_1000:'Half a day on the water',
+gift_amt_2000:'A full day of luxury',
+gift_amt_3000:'The ultimate experience',
+gift_popular:'Most Popular',
+gift_preview_eyebrow:'Preview',
+gift_preview_h2:'Your Certificate',
+gift_preview_sub:'Type the recipient\'s name to see how the certificate will look.',
+gift_cert_placeholder:'Recipient\'s name',
+gift_cert_title:'Gift Certificate',
+gift_cert_for:'Presented to',
+gift_cert_desc:'Luxury yacht charter along the Adriatic coast of Montenegro',
+gift_cert_validity:'Valid for 12 months',
+gift_form_h2:'Request Your Certificate',
+gift_form_info:'Fill in the form and we\'ll prepare a beautiful PDF certificate and send it to your email within 2 hours. You can forward it to the recipient or print it out.',
+gift_b1:'Valid for 12 months',
+gift_b2:'Fully transferable',
+gift_b3:'Any route or package',
+gift_b4:'Delivered within 2 hours',
+gift_f_buyer:'Your Name',
+gift_f_type:'Gift Type',
+gift_f_value:'Amount / Package',
+gift_f_recipient:'Recipient\'s Name',
+gift_f_message:'Personal Message (optional)',
+gift_f_delivery:'Delivery Format',
+gift_f_email_pdf:'Email PDF',
+gift_f_print_pdf:'Print-ready PDF',
+gift_f_submit:'Send Gift Request',
+gift_success_h:'Gift Request Sent!',
+gift_success_p:'We\'ll prepare your beautiful certificate and deliver it within 2 hours. Check your email!',
+gift_faq_h2:'Gift Certificate FAQ',
+gift_faq1_q:'How long is the certificate valid?',
+gift_faq1_a:'The certificate is valid for 12 months from the date of purchase.',
+gift_faq2_q:'How does the recipient book?',
+gift_faq2_a:'They simply contact us with the certificate code and we\'ll arrange everything — preferred dates, route, and any special requests.',
+gift_faq3_q:'Can I choose a specific date for the charter?',
+gift_faq3_a:'The recipient picks their preferred date when booking. This gives them maximum flexibility.',
+gift_faq4_q:'What\'s the refund policy?',
+gift_faq4_a:'Gift certificates are non-refundable but fully transferable to another person.'
 },
 ru: {
 nav_home:'Главная', nav_about:'О нас', nav_yacht:'Яхта', nav_dest:'Направления',
@@ -304,7 +359,62 @@ sub_success:'Готово! Мы будем держать вас в курсе �
 sub_sending:'Отправка...',
 sub_error:'Что-то пошло не так. Попробуйте ещё раз.',
 meta_title:'MonteYacht — Премиум яхтенный чартер Черногория',
-meta_desc:'Люксовый яхтенный чартер по Адриатическому побережью Черногории. Дневные и недельные путешествия на 18-метровой премиальной яхте.'
+meta_desc:'Люксовый яхтенный чартер по Адриатическому побережью Черногории. Дневные и недельные путешествия на 18-метровой премиальной яхте.',
+nav_gift:'Подарок',
+gift_eyebrow:'Идеальный подарок',
+gift_h1:'Подарите незабываемый день на море',
+gift_sub:'Подарите близкому человеку роскошный яхтенный опыт у побережья Черногории. Мы доставим красивый сертификат в течение 2 часов.',
+gift_how_eyebrow:'Просто и элегантно',
+gift_how_h2:'Как это работает',
+gift_step1_h:'Выберите подарок',
+gift_step1_p:'Выберите сумму или конкретный маршрут ниже.',
+gift_step2_h:'Заполните детали',
+gift_step2_p:'Укажите имя получателя и добавьте личное сообщение.',
+gift_step3_h:'Получите сертификат',
+gift_step3_p:'Мы отправим красивый PDF-сертификат в течение 2 часов.',
+gift_options_eyebrow:'Выберите подарок',
+gift_options_h2:'Варианты подарков',
+gift_tab_amount:'По сумме',
+gift_tab_package:'По пакету',
+gift_amt_500:'Вкус Адриатики',
+gift_amt_1000:'Полдня на воде',
+gift_amt_2000:'Полный день роскоши',
+gift_amt_3000:'Незабываемый опыт',
+gift_popular:'Популярный',
+gift_preview_eyebrow:'Превью',
+gift_preview_h2:'Ваш сертификат',
+gift_preview_sub:'Введите имя получателя, чтобы увидеть, как будет выглядеть сертификат.',
+gift_cert_placeholder:'Имя получателя',
+gift_cert_title:'Подарочный сертификат',
+gift_cert_for:'Вручается',
+gift_cert_desc:'Люксовый яхтенный чартер по Адриатическому побережью Черногории',
+gift_cert_validity:'Действителен 12 месяцев',
+gift_form_h2:'Запросить сертификат',
+gift_form_info:'Заполните форму, и мы подготовим красивый PDF-сертификат и отправим его на вашу почту в течение 2 часов. Вы можете переслать его получателю или распечатать.',
+gift_b1:'Действителен 12 месяцев',
+gift_b2:'Полностью передаваемый',
+gift_b3:'Любой маршрут или пакет',
+gift_b4:'Доставка в течение 2 часов',
+gift_f_buyer:'Ваше имя',
+gift_f_type:'Тип подарка',
+gift_f_value:'Сумма / Пакет',
+gift_f_recipient:'Имя получателя',
+gift_f_message:'Личное сообщение (необязательно)',
+gift_f_delivery:'Формат доставки',
+gift_f_email_pdf:'PDF на email',
+gift_f_print_pdf:'PDF для печати',
+gift_f_submit:'Отправить запрос',
+gift_success_h:'Запрос отправлен!',
+gift_success_p:'Мы подготовим красивый сертификат и доставим его в течение 2 часов. Проверьте почту!',
+gift_faq_h2:'FAQ по подарочным сертификатам',
+gift_faq1_q:'Какой срок действия сертификата?',
+gift_faq1_a:'Сертификат действителен 12 месяцев с даты покупки.',
+gift_faq2_q:'Как получатель бронирует?',
+gift_faq2_a:'Достаточно связаться с нами с кодом сертификата — мы организуем всё: даты, маршрут и особые пожелания.',
+gift_faq3_q:'Можно ли выбрать конкретную дату?',
+gift_faq3_a:'Получатель сам выбирает удобную дату при бронировании. Это даёт максимальную гибкость.',
+gift_faq4_q:'Какова политика возврата?',
+gift_faq4_a:'Подарочные сертификаты не подлежат возврату, но их можно передать другому человеку.'
 }
 };
 const faqs = [
@@ -925,6 +1035,155 @@ const browserLang = (navigator.language || navigator.userLanguage || '').toLower
 if (browserLang.startsWith('ru')) return 'ru';
 return 'en';
 }
+function initGiftPage() {
+const toggle = document.getElementById('giftToggle');
+if (!toggle) return;
+const amountTab = document.getElementById('giftAmountTab');
+const packageTab = document.getElementById('giftPackageTab');
+toggle.addEventListener('click', function(e) {
+const btn = e.target.closest('.gift-toggle-btn');
+if (!btn) return;
+toggle.querySelectorAll('.gift-toggle-btn').forEach(b => b.classList.remove('active'));
+btn.classList.add('active');
+const tab = btn.dataset.tab;
+amountTab.style.display = tab === 'amount' ? '' : 'none';
+packageTab.style.display = tab === 'package' ? '' : 'none';
+});
+renderGiftPackages();
+initCertPreview();
+initGiftForm();
+renderGiftFaq();
+}
+function renderGiftPackages() {
+const grid = document.getElementById('giftPackageGrid');
+if (!grid) return;
+grid.innerHTML = routes.map(r => {
+const name = typeof r.name === 'object' ? r.name[currentLang] : r.name;
+const dur = typeof r.dur === 'object' ? r.dur[currentLang] : r.dur;
+return `<div class="gift-package-card" data-package="${name} (${dur}, ${r.price})" onclick="selectGiftPackage(this)">
+<h4>${name}</h4>
+<div class="gift-package-meta">${dur}</div>
+<div class="gift-package-price">${r.price}</div>
+</div>`;
+}).join('');
+}
+function selectGiftAmount(el) {
+document.querySelectorAll('.gift-amount-card').forEach(c => c.classList.remove('selected'));
+el.classList.add('selected');
+const amount = '€' + Number(el.dataset.amount).toLocaleString();
+const valueField = document.getElementById('gf_value');
+const typeField = document.getElementById('gf_type');
+if (valueField) valueField.value = amount;
+if (typeField) typeField.value = 'amount';
+const certValue = document.getElementById('certValue');
+if (certValue) certValue.textContent = amount;
+document.getElementById('giftFormSection').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function selectGiftPackage(el) {
+document.querySelectorAll('.gift-package-card').forEach(c => c.classList.remove('selected'));
+el.classList.add('selected');
+const pkg = el.dataset.package;
+const valueField = document.getElementById('gf_value');
+const typeField = document.getElementById('gf_type');
+if (valueField) valueField.value = pkg;
+if (typeField) typeField.value = 'package';
+const certValue = document.getElementById('certValue');
+if (certValue) certValue.textContent = el.querySelector('.gift-package-price').textContent;
+document.getElementById('giftFormSection').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function initCertPreview() {
+const input = document.getElementById('certNameInput');
+const nameEl = document.getElementById('certName');
+if (!input || !nameEl) return;
+input.addEventListener('input', function() {
+nameEl.textContent = this.value.trim() || '———';
+});
+const recipientField = document.getElementById('gf_recipient');
+if (recipientField) {
+input.addEventListener('input', function() {
+recipientField.value = this.value;
+});
+}
+}
+const giftFaqs = [
+{q:'gift_faq1_q',a:'gift_faq1_a'},
+{q:'gift_faq2_q',a:'gift_faq2_a'},
+{q:'gift_faq3_q',a:'gift_faq3_a'},
+{q:'gift_faq4_q',a:'gift_faq4_a'}
+];
+function renderGiftFaq() {
+const list = document.getElementById('giftFaqList');
+if (!list) return;
+list.innerHTML = giftFaqs.map(f => `<div class="faq-item reveal">
+<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+<span data-i18n="${f.q}">${T[currentLang][f.q]||''}</span>
+<span class="faq-toggle">+</span>
+</div>
+<div class="faq-a"><p data-i18n="${f.a}">${T[currentLang][f.a]||''}</p></div>
+</div>`).join('');
+initReveal();
+}
+function initGiftForm() {
+const form = document.getElementById('giftForm');
+if (!form) return;
+form.addEventListener('submit', async function(e) {
+e.preventDefault();
+const btn = this.querySelector('.btn-submit');
+btn.disabled = true;
+btn.textContent = currentLang === 'ru' ? 'Отправка...' : 'Sending...';
+const fd = new FormData(this);
+const data = Object.fromEntries(fd.entries());
+const esc = s => (s||'').replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1');
+const msg = `🎁 Gift Certificate Request
+
+👤 Buyer: ${esc(data.buyer_name)}
+📞 Phone: ${esc(data.phone)}
+📧 Email: ${esc(data.email)}
+🎯 Type: ${esc(data.gift_type)}
+💰 Value: ${esc(data.gift_value)}
+🎀 Recipient: ${esc(data.recipient_name)}
+💬 Message: ${esc(data.message) || '—'}
+📄 Delivery: ${esc(data.delivery)}`;
+try {
+const crmPayload = {
+client: {
+name: data.buyer_name,
+phone: data.phone || undefined,
+email: data.email || undefined,
+language: currentLang || 'en'
+},
+notes: [
+'GIFT CERTIFICATE',
+'Type: ' + data.gift_type,
+'Value: ' + data.gift_value,
+'Recipient: ' + data.recipient_name,
+data.message ? 'Message: ' + data.message : '',
+'Delivery: ' + data.delivery
+].filter(Boolean).join('\n')
+};
+const telegramReq = fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify({ chat_id: CHAT_ID, text: msg })
+});
+const crmReq = fetch(CRM_URL, {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify(crmPayload)
+}).catch(err => console.warn('CRM send error (non-blocking):', err));
+const [telegramRes] = await Promise.all([telegramReq, crmReq]);
+const result = await telegramRes.json();
+if (!result.ok) throw new Error(result.description || 'Telegram error');
+this.style.display = 'none';
+document.getElementById('giftFormSuccess').style.display = 'block';
+} catch (err) {
+console.error('Gift form send error:', err);
+btn.disabled = false;
+btn.textContent = T[currentLang].gift_f_submit;
+alert(currentLang === 'ru' ? 'Ошибка отправки. Попробуйте WhatsApp или позвоните нам.' : 'Submission error. Try WhatsApp or call us directly.');
+}
+});
+}
 document.addEventListener('DOMContentLoaded', () => {
 initNav();
 setLang(getInitialLang());
@@ -937,6 +1196,7 @@ renderIncluded();
 renderPricing();
 renderReno();
 renderRoutes();
+initGiftPage();
 const lb = document.getElementById('lightbox');
 if (lb) lb.addEventListener('click', closeLightbox);
 });
