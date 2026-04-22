@@ -85,7 +85,7 @@ badge_safety:'Safety Certified',
 badge_safety_desc:'Meets all SOLAS & EU safety regulations',
 reno_eyebrow:'2026 Renovation',
 reno_h2:'A New Level of Luxury',
-reno_sub:'This season Damjane unveils a complete interior transformation — reimagined cabins, a modern galley, and an elegant salon designed for comfort at sea.',
+reno_sub:'This season our yacht unveils a complete interior transformation — reimagined cabins, a modern galley, and an elegant salon designed for comfort at sea.',
 included_eyebrow:'Charter Details',
 included_h2:'What\'s Included',
 included_sub:'Everything you need for a perfect day — and what to plan separately.',
@@ -237,7 +237,7 @@ badge_safety:'Сертификат безопасности',
 badge_safety_desc:'Соответствует всем стандартам SOLAS и ЕС',
 reno_eyebrow:'Реновация 2026',
 reno_h2:'Новый уровень роскоши',
-reno_sub:'В этом сезоне Damjane представляет полную трансформацию интерьера — обновлённые каюты, современная кухня и элегантный салон, созданные для комфорта в море.',
+reno_sub:'В этом сезоне наша яхта представляет полную трансформацию интерьера — обновлённые каюты, современная кухня и элегантный салон, созданные для комфорта в море.',
 included_eyebrow:'Детали чартера',
 included_h2:'Что включено',
 included_sub:'Всё необходимое для идеального дня — и что планировать отдельно.',
@@ -380,7 +380,7 @@ const routes = [
   price:'€2,600',
   badge:{en:'Adventure',ru:'Приключение'},
   img:'images/19-damjane-sunset.jpg',
-  alt:{en:'Yacht Damjane cruising at sunset — Blue Cave Adventure',ru:'Яхта Damjane на закате — приключение к Голубой пещере'},
+  alt:{en:'Our yacht cruising at sunset — Blue Cave Adventure',ru:'Наша яхта на закате — приключение к Голубой пещере'},
   desc:{en:'Chase the legendary blue glow. Time your visit for the magical midday light inside the cave, explore a 19th-century island fortress, and swim in some of the Adriatic\'s clearest waters. A full day of discovery along Montenegro\'s dramatic coastline.',ru:'За легендарным голубым сиянием. Посетите пещеру в магическое полуденное время, исследуйте островную крепость XIX века и купайтесь в чистейших водах Адриатики. Полный день открытий вдоль побережья.'},
   audience:{en:'Adventurers · Photographers · Groups',ru:'Искатели приключений · Фотографы · Группы'},
   stops:[
@@ -428,12 +428,12 @@ const routes = [
 }
 ];
 const destinations = [
-{name:'Kotor Bay',desc:{en:'Europe\'s southernmost fjord. UNESCO World Heritage mountains plunge into emerald waters, hiding medieval towns and centuries of maritime history.',ru:'Самый южный фьорд Европы. Горы из списка UNESCO спускаются к изумрудным водам, скрывая средневековые города и века морской истории.'},img:'images/18-damjane-stern.jpg',alt:{en:'Yacht Damjane in Kotor Bay',ru:'Яхта Damjane в Которском заливе'}},
+{name:'Kotor Bay',desc:{en:'Europe\'s southernmost fjord. UNESCO World Heritage mountains plunge into emerald waters, hiding medieval towns and centuries of maritime history.',ru:'Самый южный фьорд Европы. Горы из списка UNESCO спускаются к изумрудным водам, скрывая средневековые города и века морской истории.'},img:'images/18-damjane-stern.jpg',alt:{en:'Our yacht in Kotor Bay',ru:'Наша яхта в Которском заливе'}},
 {name:{en:'Perast & Our Lady of the Rocks',ru:'Пераст и Богородица на Рифе'},desc:{en:'A tiny baroque town of 16 palaces and a man-made island — built stone by stone by sailors since 1452. One of the most photographed spots in the Adriatic.',ru:'Крошечный барочный город с 16 дворцами и рукотворный остров — камень за камнем с 1452 года. Одно из самых фотографируемых мест Адриатики.'},img:'images/17-champagne-coupes.jpg',alt:{en:'Champagne coupes at sunset near Perast',ru:'Бокалы шампанского на закате у Пераста'}},
-{name:{en:'Porto Montenegro, Tivat',ru:'Порто Монтенегро, Тиват'},desc:{en:'Your journey starts here. One of the Mediterranean\'s most prestigious superyacht marinas — boutiques, restaurants, and our home port.',ru:'Ваше путешествие начинается здесь. Одна из самых престижных марин суперяхт Средиземноморья — бутики, рестораны и наш домашний порт.'},img:'images/20-damjane-profile.jpg',alt:{en:'Yacht Damjane at Porto Montenegro marina',ru:'Яхта Damjane в марине Порто Монтенегро'}}
+{name:{en:'Porto Montenegro, Tivat',ru:'Порто Монтенегро, Тиват'},desc:{en:'Your journey starts here. One of the Mediterranean\'s most prestigious superyacht marinas — boutiques, restaurants, and our home port.',ru:'Ваше путешествие начинается здесь. Одна из самых престижных марин суперяхт Средиземноморья — бутики, рестораны и наш домашний порт.'},img:'images/20-damjane-profile.jpg',alt:{en:'Our yacht at Porto Montenegro marina',ru:'Наша яхта в марине Порто Монтенегро'}}
 ];
 const galleryImages = [
-{src:'images/19-damjane-sunset.jpg',alt:{en:'Yacht Damjane at golden hour in Kotor Bay',ru:'Яхта Damjane на закате в Которском заливе'}},
+{src:'images/19-damjane-sunset.jpg',alt:{en:'Our yacht at golden hour in Kotor Bay',ru:'Наша яхта на закате в Которском заливе'}},
 {src:'images/01-sundeck-reading.jpg',alt:{en:'Guests relaxing with magazines on the sun deck',ru:'Гости отдыхают с журналами на солнечной палубе'}},
 {src:'images/02-sundeck-bay.jpg',alt:{en:'Reading on the sun deck with Kotor Bay mountains behind',ru:'Чтение на палубе с видом на горы Которского залива'}},
 {src:'images/10-jump-champagne.jpg',alt:{en:'Guest jumping off the yacht while friends pop champagne',ru:'Гость прыгает с яхты, друзья открывают шампанское'}},
@@ -449,13 +449,13 @@ const galleryImages = [
 {src:'images/05-bow-guys.jpg',alt:{en:'Four friends relaxing with drinks on the yacht bow',ru:'Четверо друзей отдыхают с напитками на носу яхты'}},
 {src:'images/06-sundeck-group.jpg',alt:{en:'Mixed group relaxing on the sun deck',ru:'Смешанная компания отдыхает на солнечной палубе'}},
 {src:'images/09-bow-girls.jpg',alt:{en:'Group photo on the bow with a superyacht anchored behind',ru:'Групповое фото на носу с суперяхтой на фоне'}},
-{src:'images/15-cabin-interior.jpg',alt:{en:'Cozy cabin with warm wooden interior',ru:'Уютная каюта с тёплым деревянным интерьером'}},
+
 {src:'images/reno-owner-suite.jpg',alt:{en:'2026 renovation — owner\'s suite',ru:'Реновация 2026 — каюта владельца'}},
 {src:'images/reno-salon-dining.jpg',alt:{en:'2026 renovation — salon & dining',ru:'Реновация 2026 — салон и столовая'}},
 {src:'images/reno-wheelhouse.jpg',alt:{en:'2026 renovation — wheelhouse',ru:'Реновация 2026 — рулевая рубка'}},
 {src:'images/13-bbq-fish.jpg',alt:{en:'Fresh fish grilling on the onboard BBQ',ru:'Свежая рыба на гриле яхты'}},
-{src:'images/18-damjane-stern.jpg',alt:{en:'Yacht Damjane stern view at golden hour',ru:'Яхта Damjane вид с кормы на закате'}},
-{src:'images/20-damjane-profile.jpg',alt:{en:'Yacht Damjane sailing at sunset along the Montenegrin coast',ru:'Яхта Damjane на закате у побережья Черногории'}}
+{src:'images/18-damjane-stern.jpg',alt:{en:'Our yacht stern view at golden hour',ru:'Наша яхта — вид с кормы на закате'}},
+{src:'images/20-damjane-profile.jpg',alt:{en:'Our yacht sailing at sunset along the Montenegrin coast',ru:'Наша яхта на закате у побережья Черногории'}}
 ];
 const galleryVideoURL = '';
 const renoImages = [
