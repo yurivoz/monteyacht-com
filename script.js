@@ -1,5 +1,5 @@
 const BOT_TOKEN = '7621515873:AAE4JDcrzlcQ7aSaFJv3hGbb10IOTnQSRpI';
-const CHAT_ID = '294237889';
+const CHAT_IDS = ['294237889', '-1003430785637'];
 const CRM_URL = 'https://dashboard.myyacht.info/api/leads';
 const T = {
 en: {
@@ -968,17 +968,17 @@ notes: [
 data.comments ? 'Comments: ' + data.comments : ''
 ].filter(Boolean).join('\n')
 };
-const telegramReq = fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+const telegramReqs = CHAT_IDS.map(id => fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
-body: JSON.stringify({ chat_id: CHAT_ID, text: msg })
-});
+body: JSON.stringify({ chat_id: id, text: msg })
+}));
 const crmReq = fetch(CRM_URL, {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
 body: JSON.stringify(crmPayload)
 }).catch(err => console.warn('CRM send error (non-blocking):', err));
-const [telegramRes] = await Promise.all([telegramReq, crmReq]);
+const [telegramRes] = await Promise.all([...telegramReqs, crmReq]);
 const result = await telegramRes.json();
 if (!result.ok) throw new Error(result.description || 'Telegram error');
 this.style.display = 'none';
@@ -1207,17 +1207,17 @@ data.message ? 'Message: ' + data.message : '',
 'Delivery: ' + data.delivery
 ].filter(Boolean).join('\n')
 };
-const telegramReq = fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+const telegramReqs = CHAT_IDS.map(id => fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
-body: JSON.stringify({ chat_id: CHAT_ID, text: msg })
-});
+body: JSON.stringify({ chat_id: id, text: msg })
+}));
 const crmReq = fetch(CRM_URL, {
 method: 'POST',
 headers: { 'Content-Type': 'application/json' },
 body: JSON.stringify(crmPayload)
 }).catch(err => console.warn('CRM send error (non-blocking):', err));
-const [telegramRes] = await Promise.all([telegramReq, crmReq]);
+const [telegramRes] = await Promise.all([...telegramReqs, crmReq]);
 const result = await telegramRes.json();
 if (!result.ok) throw new Error(result.description || 'Telegram error');
 this.style.display = 'none';
