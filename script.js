@@ -1,6 +1,24 @@
 const BOT_TOKEN = '7621515873:AAE4JDcrzlcQ7aSaFJv3hGbb10IOTnQSRpI';
 const CHAT_IDS = ['294237889', '-1003430785637'];
 const CRM_URL = 'https://dashboard.myyacht.info/api/leads';
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  if (typeof gtag === 'function') {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-18156075003/XeumCIqxmqscEPvvvtFD',
+      'value': 1.0,
+      'currency': 'USD',
+      'event_callback': callback
+    });
+  } else {
+    callback();
+  }
+  return false;
+}
 const T = {
 en: {
 nav_home:'Home', nav_about:'About', nav_yacht:'The Yacht', nav_dest:'Destinations',
@@ -983,6 +1001,7 @@ const result = await telegramRes.json();
 if (!result.ok) throw new Error(result.description || 'Telegram error');
 this.style.display = 'none';
 document.getElementById('formSuccess').style.display = 'block';
+gtag_report_conversion();
 } catch (err) {
 console.error('Telegram send error:', err);
 btn.disabled = false;
@@ -1222,6 +1241,7 @@ const result = await telegramRes.json();
 if (!result.ok) throw new Error(result.description || 'Telegram error');
 this.style.display = 'none';
 document.getElementById('giftFormSuccess').style.display = 'block';
+gtag_report_conversion();
 } catch (err) {
 console.error('Gift form send error:', err);
 btn.disabled = false;
