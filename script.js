@@ -536,14 +536,14 @@ const routes = [
   badge:{en:'Most Popular',ru:'Популярный'},
   img:'images/16-cheers-kotor.jpg',
   alt:{en:'Champagne toast with Our Lady of the Rocks in Kotor Bay',ru:'Тост шампанским на фоне Богородицы на Рифе в Которском заливе'},
-  desc:{en:'The essential Montenegro experience. Cruise through Europe\'s southernmost fjord past baroque palaces, an island built by sailors over centuries, and a medieval walled city — with swimming stops in crystal-clear waters along the way.',ru:'Главный маршрут Черногории. Круиз по самому южному фьорду Европы мимо барочных дворцов, острова, созданного моряками за столетия, и средневекового города — с купанием в кристально чистых водах.'},
+  desc:{en:'The essential Montenegro experience. Cruise through Europe\'s southernmost fjord past baroque palaces, an island built by sailors over centuries, and a medieval walled city — with swimming stops in crystal-clear waters along the way.',ru:'Основной маршрут залива — мимо паромов, островов и средневековых городов. По пути закажем устриц в Каменари (привезут прямо на лодку с воды), пришвартуемся в Перасте или заглянем в музей на Госпа од Шкрпела. К Котору и обратно — с купанием у острова Страдиоти.'},
   audience:{en:'Families · Couples · First-time visitors',ru:'Семьи · Пары · Первый визит'},
   stops:[
     {name:{en:'Porto Montenegro',ru:'Порто Монтенегро'},note:{en:'Departure from the superyacht marina',ru:'Отправление от марины суперяхт'}},
     {name:{en:'Our Lady of the Rocks',ru:'Остров Богородицы на Рифе'},note:{en:'Photo stop from the water — the island built stone by stone since 1452',ru:'Фотостоп с воды — остров, построенный камень за камнем с 1452 года'}},
     {name:{en:'Perast',ru:'Пераст'},note:{en:'Baroque waterfront town with 16 palaces — photo stop & swimming',ru:'Барочный город с 16 дворцами — фотостоп и купание'}},
     {name:{en:'Kotor Old Town',ru:'Старый город Котор'},note:{en:'UNESCO-protected medieval city — seafood restaurants & swimming in the bay',ru:'Средневековый город UNESCO — рыбные рестораны и купание в заливе'}},
-    {name:{en:'Swimming stop',ru:'Купание'},note:{en:'Crystal-clear water in a secluded spot chosen by the captain',ru:'Кристально чистая вода в укромном месте, выбранном капитаном'}},
+    {name:{en:'Swimming stop',ru:'Купание у Страдиоти'},note:{en:'Crystal-clear water in a secluded spot chosen by the captain',ru:'Купание у острова Страдиоти на обратном пути в Тиват'}},
     {name:{en:'Return to Porto Montenegro',ru:'Возвращение в Порто Монтенегро'},note:{en:'Sunset views over the bay on the way back',ru:'Виды заката над заливом по пути назад'}}
   ]
 },
@@ -555,14 +555,15 @@ const routes = [
   badge:{en:'Adventure',ru:'Приключение'},
   img:'images/19-damjane-sunset.jpg',
   alt:{en:'Our yacht cruising at sunset — Blue Cave Adventure',ru:'Наша яхта на закате — приключение к Голубой пещере'},
-  desc:{en:'Chase the legendary blue glow. Time your visit for the magical midday light inside the cave, explore a 19th-century island fortress, and swim in some of the Adriatic\'s clearest waters. A full day of discovery along Montenegro\'s dramatic coastline.',ru:'За легендарным голубым сиянием. Посетите пещеру в магическое полуденное время, исследуйте островную крепость XIX века и купайтесь в чистейших водах Адриатики. Полный день открытий вдоль побережья.'},
+  desc:{en:'Chase the legendary blue glow. Time your visit for the magical midday light inside the cave, explore a 19th-century island fortress, and swim in some of the Adriatic\'s clearest waters. A full day of discovery along Montenegro\'s dramatic coastline.',ru:'К Голубой пещере — туда нужно успеть в 11–12, иначе нет того синего света. Сразу идём туда: вдоль Луштицы, мимо доков подводных лодок и крепости Мамула. На обратном пути — обед в Рыбарско Село или Форт Роса, купание у острова Страдиоти.'},
   audience:{en:'Adventurers · Photographers · Groups',ru:'Искатели приключений · Фотографы · Группы'},
   stops:[
-    {name:{en:'Porto Montenegro',ru:'Порто Монтенегро'},note:{en:'Morning departure along the coast',ru:'Утренний выход вдоль побережья'}},
-    {name:{en:'Blue Cave (Plava Špilja)',ru:'Голубая пещера (Плава Шпиля)'},note:{en:'Magical blue light effect — best between 11:00 and 14:00',ru:'Магический голубой свет — лучшее время с 11:00 до 14:00'}},
-    {name:{en:'Mamula Island',ru:'Остров Мамула'},note:{en:'19th-century Austro-Hungarian fortress — swimming & snorkeling',ru:'Австро-венгерская крепость XIX века — купание и снорклинг'}},
-    {name:{en:'Swimming & lunch stop',ru:'Купание и обед'},note:{en:'Anchor in a pristine bay — BBQ on board or restaurant ashore',ru:'Якорь в живописной бухте — BBQ на борту или ресторан на берегу'}},
-    {name:{en:'Return to Porto Montenegro',ru:'Возвращение в Порто Монтенегро'},note:{en:'Relaxed cruise back along the coast',ru:'Спокойное возвращение вдоль побережья'}}
+    {name:{en:'Porto Montenegro',ru:'Порто Монтенегро'},note:{en:'Morning departure along the coast',ru:'Ранний выход — чтобы успеть к Голубой пещере к 11–12'}},
+    {name:{en:'Submarine docks',ru:'Доки подводных лодок'},note:{en:'Short pass by the former military base — tunnels in cliffs, off the tourist track',ru:'Короткий проход мимо бывшей военной базы — тоннели в скалах, мало кто знает'}},
+    {name:{en:'Mamula Island',ru:'Остров Мамула'},note:{en:'19th-century Austro-Hungarian fortress — swimming & snorkeling',ru:'Австро-венгерская крепость XIX века — фото с моря по пути к пещере'}},
+    {name:{en:'Blue Cave (Plava Špilja)',ru:'Голубая пещера (Плава Шпиля)'},note:{en:'Magical blue light effect — best between 11:00 and 14:00',ru:'Заходим в 11–12 — иначе нет того голубого света'}},
+    {name:{en:'Rybarsko Selo or Fort Rose',ru:'Рыбарско Село или Форт Роса'},note:{en:'Lunch on water or on shore — your choice',ru:'Обед на воде или на берегу — два варианта на ваш выбор'}},
+    {name:{en:'Return to Porto Montenegro',ru:'Возвращение в Порто Монтенегро'},note:{en:'Swim stop at Stradioti island on the way back',ru:'Купание у острова Страдиоти на обратном пути'}}
   ]
 },
 {
@@ -573,7 +574,7 @@ const routes = [
   badge:{en:'Beach & Lounge',ru:'Пляж и лаунж'},
   img:'images/03-bow-party.jpg',
   alt:{en:'Friends enjoying the sun on the bow deck — Luštica Explorer',ru:'Друзья на носовой палубе — маршрут Лустица'},
-  desc:{en:'The perfect beach day. Start with golden sand and turquoise shallows at Blue Horizon, chase the blue glow inside the cave, then finish with cocktails and DJ sets at Almara — Montenegro\'s most exclusive beach club, popular with the superyacht crowd.',ru:'Идеальный пляжный день. Золотой песок и бирюзовое мелководье Blue Horizon, голубое сияние пещеры, а затем коктейли и DJ-сеты в Almara — самом эксклюзивном бич-клубе Черногории, любимом месте владельцев суперяхт.'},
+  desc:{en:'The perfect beach day. Start with golden sand and turquoise shallows at Blue Horizon, chase the blue glow inside the cave, then finish with cocktails and DJ sets at Almara — Montenegro\'s most exclusive beach club, popular with the superyacht crowd.',ru:'Пляжный день вдоль Луштицы. Золотой песок и бирюзовое мелководье Blue Horizon, заход в Голубую пещеру, потом коктейли и DJ-сеты в Almara — известный бич-клуб побережья. По погоде на обратном пути — якорь у Плави Горизонт.'},
   audience:{en:'Friends · Young groups · Beach lovers',ru:'Друзья · Молодые компании · Любители пляжей'},
   stops:[
     {name:{en:'Porto Montenegro',ru:'Порто Монтенегро'},note:{en:'Departure towards Luštica peninsula',ru:'Выход к полуострову Лустица'}},
@@ -591,12 +592,13 @@ const routes = [
   badge:{en:'Gourmet & Relax',ru:'Гурман и релакс'},
   img:'images/02-sundeck-bay.jpg',
   alt:{en:'Peaceful sundeck view over Kotor Bay mountains — Secluded Escape',ru:'Спокойный вид с палубы на горы Которского залива — Уединённый маршрут'},
-  desc:{en:'For those who seek silence. Anchor at a hidden beach reachable only by boat, swim in waters so clear you can count the pebbles, then cruise to an authentic fishing village for a sunset dinner of the freshest catch — straight from the fisherman\'s net to your plate.',ru:'Для тех, кто ищет тишину. Якорь у скрытого пляжа, доступного только с воды, купание в воде настолько чистой, что видно каждый камешек, а затем — рыбацкая деревня и ужин из свежайшего улова прямо из сетей рыбака.'},
+  desc:{en:'For those who seek silence. Anchor at a hidden beach reachable only by boat, swim in waters so clear you can count the pebbles, then cruise to an authentic fishing village for a sunset dinner of the freshest catch — straight from the fisherman\'s net to your plate.',ru:'Для тех, кто ищет тишину. Стоянки, где нет туристических катеров: Плави Горизонт, секретный пляж после Святого Стефана, тихая бухта на обратном пути с видом на Luštica Bay. Обед в Биговой из улова дня, закат на якоре.'},
   audience:{en:'Couples · Privacy seekers · Foodies',ru:'Пары · Ценители уединения · Гурманы'},
   stops:[
     {name:{en:'Porto Montenegro',ru:'Порто Монтенегро'},note:{en:'Relaxed late-morning departure',ru:'Спокойный выход поздним утром'}},
-    {name:{en:'Dobrec Beach',ru:'Пляж Добреч'},note:{en:'Wild beach reachable only by boat — hammocks, swimming, seafood restaurant',ru:'Дикий пляж, доступный только с воды — гамаки, купание, рыбный ресторан'}},
-    {name:{en:'Bigova Village',ru:'Деревня Бигова'},note:{en:'Traditional fishing hamlet — sunset dinner of the day\'s catch',ru:'Рыбацкая деревня — ужин на закате из улова дня'}},
+    {name:{en:'Plavi Horizont',ru:'Плави Горизонт'},note:{en:'Quiet anchorage — swimming in full privacy, only yachts at anchor',ru:'Тихая бухта — купание в полной приватности, только лодки на якоре'}},
+    {name:{en:'Bigova Village',ru:'Деревня Бигова'},note:{en:'Traditional fishing hamlet — lunch or sunset dinner of the day\'s catch',ru:'Рыбацкая деревня — обед или ужин из улова дня'}},
+    {name:{en:'Anchorage on return',ru:'Якорная стоянка на обратном пути'},note:{en:'Quiet spot with a view of Luštica Bay',ru:'Тихое место с видом на Luštica Bay'}},
     {name:{en:'Sunset return',ru:'Возвращение на закате'},note:{en:'Golden hour cruise through the bay',ru:'Круиз через залив в золотой час'}}
   ]
 }
