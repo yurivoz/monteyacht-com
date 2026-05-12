@@ -518,7 +518,7 @@ name:'Sophie & Marc', loc:{en:'Paris, France',ru:'Париж, Франция'}, 
 avatar:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop'
 },
 {
-text:{en:'Third summer chartering with MonteYacht — this time we did the Luštica Bay route with friends. Blue Horizon beach has the best sand in Montenegro, hands down. Then Almara Beach Club was absolutely our scene — cocktails, great DJ, yacht people everywhere. We upgraded to Premium Experience this time: the champagne and fruit platter on arrival really set the tone. Already booked for August.',ru:'Третье лето с MonteYacht — на этот раз прошли маршрут Луштица Бей с друзьями. Пляж Blue Horizon — лучший песок в Черногории, без вариантов. Потом бич-клуб Almara — это абсолютно наша атмосфера: коктейли, отличный DJ, яхтенная публика повсюду. В этот раз взяли Premium Experience: шампанское и фруктовая тарелка при встрече задали тон всему дню. Уже забронировали на август.'},
+text:{en:'Third summer chartering with MonteYacht — this time we did the Luštica Bay route with friends. Blue Horizon beach has the best sand in Montenegro, hands down. Then Almara Beach Club was absolutely our scene — cocktails, great DJ, yacht people everywhere. We upgraded to The Pack of Four this time: the champagne and fruit platter on arrival really set the tone. Already booked for August.',ru:'Третье лето с MonteYacht — на этот раз прошли маршрут Луштица Бей с друзьями. Пляж Blue Horizon — лучший песок в Черногории, без вариантов. Потом бич-клуб Almara — это абсолютно наша атмосфера: коктейли, отличный DJ, яхтенная публика повсюду. В этот раз взяли пакет «Все четыре»: шампанское и фруктовая тарелка при встрече задали тон всему дню. Уже забронировали на август.'},
 route:'lustica',
 name:{en:'Alexander',ru:'Александр'}, loc:{en:'Berlin, Germany',ru:'Берлин, Германия'}, stars:5,
 avatar:'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop'
@@ -757,7 +757,7 @@ html += `<div class="premium-bundle reveal">
 <span class="premium-old-price">${premiumBundle.fullPrice}</span>
 <span class="premium-bundle-price">${premiumBundle.bundlePrice}</span>
 </div>
-<a href="https://wa.me/38268758345?text=${encodeURIComponent(lang==='ru'?'Здравствуйте! Хочу заказать пакет Премиум впечатление':'Hi! I\'d like to book the Premium Experience package')}" class="btn btn-gold btn-sm" target="_blank" rel="noopener">WhatsApp <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+<a href="https://wa.me/38268758345?text=${encodeURIComponent(lang==='ru'?'Здравствуйте! Хочу заказать пакет «Все четыре»':'Hi! I\'d like to book The Pack of Four')}" class="btn btn-gold btn-sm" target="_blank" rel="noopener">WhatsApp <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
 </div>`;
 grid.innerHTML = html;
 initReveal();
