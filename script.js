@@ -1134,22 +1134,23 @@ grid.innerHTML = renoImages.map(g => `
 `).join('');
 }
 const includedYes = [
-{en:'Professional captain & crew',ru:'Профессиональный капитан и экипаж'},
-{en:'Fuel for standard routes',ru:'Топливо для стандартных маршрутов'},
-{en:'Bed linens & towels',ru:'Постельное бельё и полотенца'},
-{en:'Snorkeling gear & masks',ru:'Снаряжение для снорклинга и маски'},
-{en:'SUP boards & water toys',ru:'SUP-доски и водные игрушки'},
-{en:'Bluetooth sound system',ru:'Bluetooth аудиосистема'},
-{en:'Basic maritime insurance',ru:'Базовое морское страхование'},
-{en:'Sun lounger cushions & shade',ru:'Шезлонги и тент от солнца'}
+{en:'Yacht Marea with captain & steward',ru:'Яхта Marea с капитаном и стюардом'},
+{en:'Fuel within the route',ru:'Топливо в пределах маршрута'},
+{en:'Welcome drink — prosecco or non-alcoholic',ru:'Welcome drink — просекко или безалкогольный'},
+{en:'Insurance for all passengers (automatic)',ru:'Страховка для всех пассажиров (автоматически)'},
+{en:'SUP boards, snorkelling masks, underwater scooter',ru:'SUP-доски, маски для снорклинга, подводный скутер'},
+{en:'Inflatable loungers & water toys',ru:'Надувные шезлонги и водные игрушки'},
+{en:'Bluetooth speakers — your playlist',ru:'Bluetooth-колонки — ваш плейлист'},
+{en:'Towels, ice, water, fruit',ru:'Полотенца, лёд, вода, фрукты'},
+{en:'No port fees at Porto Montenegro',ru:'Без портовых сборов в Порто Монтенегро'}
 ];
 const includedNo = [
-{en:'Food & beverages (BYO or we arrange catering)',ru:'Еда и напитки (свои или организуем кейтеринг)'},
-{en:'Port & marina fees',ru:'Портовые и марина-сборы'},
-{en:'Underwater scooter rental',ru:'Аренда подводного скутера'},
-{en:'Special occasion decorations',ru:'Декор для особых случаев'},
-{en:'Professional photography',ru:'Профессиональная фотосъёмка'},
-{en:'Custom catering & chef service',ru:'Индивидуальный кейтеринг и шеф-повар'}
+{en:'Food (lunch or snacks — by request, at cost)',ru:'Еда (обед или закуски — по запросу, по факту)'},
+{en:'Alcohol beyond the welcome drink',ru:'Алкоголь сверх welcome drink'},
+{en:'Port fees in Kotor or Herceg Novi marinas',ru:'Портовые сборы в маринах Котора или Херцег-Нови'},
+{en:'Private chef — add-on (+€300)',ru:'Личный шеф — добавка (+€300)'},
+{en:'Professional photographer — add-on (+€200)',ru:'Профессиональный фотограф — добавка (+€200)'},
+{en:'Celebration decor — add-on (+€150)',ru:'Праздничный декор — добавка (+€150)'}
 ];
 let currentLang = 'en';
 let currentReview = 0;
