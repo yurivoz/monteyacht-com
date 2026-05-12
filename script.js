@@ -1261,6 +1261,20 @@ alert(currentLang === 'ru' ? 'Ошибка отправки. Попробуйт�
 }
 });
 }
+function initHideElfsightBadge() {
+function hide() {
+document.querySelectorAll('.ig-widget a[href*="elfsight"], .ig-widget a[href*="elf.sight"]').forEach(el => { el.style.display = 'none'; });
+document.querySelectorAll('.ig-widget [class*="elfsight"], .ig-widget [class*="eapps"]').forEach(host => {
+const shadow = host.shadowRoot;
+if (shadow) {
+shadow.querySelectorAll('a[href*="elfsight"], a[href*="elf.sight"], [class*="eapps-link"], [class*="eapps-toolbar"], [class*="eapps-widget-toolbar"]').forEach(el => { el.style.display = 'none'; });
+}
+});
+}
+hide();
+new MutationObserver(hide).observe(document.body, { childList: true, subtree: true });
+setInterval(hide, 2000);
+}
 document.addEventListener('DOMContentLoaded', () => {
 initNav();
 setLang(getInitialLang());
@@ -1274,6 +1288,7 @@ renderPricing();
 renderReno();
 renderRoutes();
 initGiftPage();
+initHideElfsightBadge();
 const lb = document.getElementById('lightbox');
 if (lb) lb.addEventListener('click', closeLightbox);
 });
