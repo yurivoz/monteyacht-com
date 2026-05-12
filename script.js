@@ -300,7 +300,7 @@ dest_places_h2:'Ключевые точки',
 dest_places_sub:'Главные места побережья — Котор, Пераст, остров Богородицы на Рифе, Голубая пещера, Луштица. Всё в пределах одного дневного выхода из Порто Монтенегро.',
 premium_eyebrow:'Добавки к чартеру',
 premium_h2:'Что можно заказать',
-premium_sub:'Шампанское на борту, фотограф, личный шеф, аэросъёмка с дрона или цветы для предложения руки и сердца — добавляйте при бронировании по одной или возьмите пакет из четырёх со скидкой 15%.',
+premium_sub:'Шеф-повар, профессиональный фотограф, праздничный декор и подводный скутер — добавляйте по одной или возьмите пакет из четырёх и сэкономьте €150.',
 multiday_eyebrow:'Ночёвки на борту',
 multiday_h2:'Несколько дней на воде',
 multiday_sub:'Засыпайте в тихой бухте, просыпайтесь под кофе на палубе. Каюты после полной реновации — 2, 3 или 5 ночей, маршрут собираем под вас.',
@@ -657,14 +657,14 @@ const renoImages = [
 {src:'images/reno-lounge-detail.jpg',alt:{en:'Lounge sofa with designer cushions',ru:'Диван с дизайнерскими подушками'}}
 ];
 const premiumAddons = [
-{id:'chef',icon:'🍽️',name:{en:'Private Chef',ru:'Личный шеф-повар'},desc:{en:'Mediterranean tasting menu prepared on board by a professional chef — 4 courses with wine pairing.',ru:'Средиземноморское дегустационное меню на борту от профессионального шеф-повара — 4 подачи с винной парой.'},price:'+€300'},
-{id:'photo',icon:'📸',name:{en:'Photography Package',ru:'Фотосъёмка'},desc:{en:'Professional photographer captures your day — 50+ edited photos delivered within 48 hours.',ru:'Профессиональный фотограф — 50+ обработанных фотографий в течение 48 часов.'},price:'+€200'},
-{id:'decor',icon:'🥂',name:{en:'Celebration Decor',ru:'Праздничный декор'},desc:{en:'Balloons, flowers, cake, champagne & custom banner — birthdays, proposals, anniversaries.',ru:'Шары, цветы, торт, шампанское и баннер — дни рождения, предложения, годовщины.'},price:'+€150'},
-{id:'scooter',icon:'🤿',name:{en:'Underwater Scooter',ru:'Подводный скутер'},desc:{en:'Explore beneath the surface — electric underwater scooter for effortless diving adventures.',ru:'Исследуйте подводный мир — электрический подводный скутер для лёгкого дайвинга.'},price:'+€100'}
+{id:'chef',icon:'🍽️',name:{en:'Private Chef',ru:'Личный шеф-повар'},desc:{en:'Mediterranean tasting menu prepared on board by a professional chef — 4 courses with wine pairing.',ru:'Шеф приходит на борт с продуктами, готовит на месте. 4 курса средиземноморской кухни с винным пейрингом. Меню согласуем за 2 дня.'},price:'+€300'},
+{id:'photo',icon:'📸',name:{en:'Photography Package',ru:'Фотосъёмка'},desc:{en:'Professional photographer captures your day — 50+ edited photos delivered within 48 hours.',ru:'Фотограф на борту с вами весь день. 50+ обработанных кадров приходят в облако за 48 часов после чартера.'},price:'+€200'},
+{id:'decor',icon:'🥂',name:{en:'Celebration Decor',ru:'Праздничный декор'},desc:{en:'Balloons, flowers, cake, champagne & custom banner — birthdays, proposals, anniversaries.',ru:'Шары, цветы, торт, бутылка шампанского и именной баннер. Готовим к вашему приходу — день рождения, предложение или годовщина.'},price:'+€150'},
+{id:'scooter',icon:'🤿',name:{en:'Underwater Scooter',ru:'Подводный скутер'},desc:{en:'Explore beneath the surface — electric underwater scooter for effortless diving adventures.',ru:'Электрический скутер тянет вас под водой — не нужно плыть самому. Маски, ласты и трубки уже на борту.'},price:'+€100'}
 ];
 const premiumBundle = {
-name:{en:'Premium Experience',ru:'Премиум впечатление'},
-desc:{en:'Chef + Photography + Celebration Decor + Underwater Scooter — all four at a special rate.',ru:'Шеф-повар + Фотосъёмка + Праздничный декор + Подводный скутер — всё четыре по специальной цене.'},
+name:{en:'Premium Experience',ru:'Пакет «Все четыре»'},
+desc:{en:'Chef + Photography + Celebration Decor + Underwater Scooter — all four at a special rate.',ru:'Все четыре опции вместе — €600 вместо €750, экономия €150.'},
 fullPrice:'€750',
 bundlePrice:'€600',
 save:{en:'Save €150',ru:'Экономия €150'}
@@ -677,7 +677,7 @@ days:2, nights:1,
 price:'€6,000',
 perDay:'€3,000/day',
 badge:{en:'Popular',ru:'Популярный'},
-desc:{en:'Two full days exploring Boka Bay and the open coast — one night anchored under the stars. Wake up to mountains, coffee on the deck, and a full second day of discovery.',ru:'Два полных дня по Боке Которской и открытому побережью — ночь под звёздами. Просыпайтесь среди гор, кофе на палубе и полный второй день открытий.'},
+desc:{en:'Two full days exploring Boka Bay and the open coast — one night anchored under the stars. Wake up to mountains, coffee on the deck, and a full second day of discovery.',ru:'Два полных дня по Боко-Которскому заливу и открытому побережью — ночь под звёздами. Просыпайтесь среди гор, кофе на палубе и полный второй день.'},
 itinerary:[
 {day:1,title:{en:'Boka Bay & Perast',ru:'Боко-Которский залив и Пераст'},desc:{en:'Depart Porto Montenegro → Our Lady of the Rocks → Perast → Kotor Old Town → anchor for overnight in a secluded bay',ru:'Отправление из Порто Монтенегро → Богородица на Рифе → Пераст → Старый Котор → якорь на ночь в уединённой бухте'}},
 {day:2,title:{en:'Blue Cave & Luštica',ru:'Голубая пещера и Лустица'},desc:{en:'Blue Cave at peak light → Mamula Island → Blue Horizon Beach → Almara Beach Club → return to Porto Montenegro',ru:'Голубая пещера на пике света → остров Мамула → пляж Blue Horizon → бич-клуб Almara → возвращение в Порто Монтенегро'}}
@@ -690,7 +690,7 @@ days:3, nights:2,
 price:'€9,000',
 perDay:'€3,000/day',
 badge:{en:'Best Value',ru:'Лучшая цена'},
-desc:{en:'The complete Montenegro by sea. Three days, two nights aboard — every highlight from the fjord to the Blue Cave, hidden beaches, fishing villages, and beach clubs.',ru:'Полная Черногория с моря. Три дня, две ночи на борту — все жемчужины от фьорда до Голубой пещеры, скрытые пляжи, рыбацкие деревни и бич-клубы.'},
+desc:{en:'The complete Montenegro by sea. Three days, two nights aboard — every highlight from the fjord to the Blue Cave, hidden beaches, fishing villages, and beach clubs.',ru:'Полное побережье с моря. Три дня, две ночи на борту — от фьорда до Голубой пещеры, скрытые пляжи, рыбацкие деревни и бич-клубы.'},
 itinerary:[
 {day:1,title:{en:'The Fjord',ru:'Фьорд'},desc:{en:'Porto Montenegro → Perast & Our Lady of the Rocks → Kotor → evening anchored in Kotor Bay with dinner on the deck',ru:'Порто Монтенегро → Пераст и Богородица на Рифе → Котор → вечер на якоре в Которском заливе, ужин на палубе'}},
 {day:2,title:{en:'Adventure Day',ru:'День приключений'},desc:{en:'Blue Cave at midday → Mamula Island → Dobrec Beach hammocks & seafood → Bigova sunset dinner → overnight anchored',ru:'Голубая пещера в полдень → остров Мамула → пляж Добреч, гамаки и морепродукты → ужин на закате в Бигове → ночь на якоре'}},
@@ -704,7 +704,7 @@ days:5, nights:4,
 price:'€15,000',
 perDay:'€3,000/day',
 badge:{en:'Ultimate',ru:'Максимум'},
-desc:{en:'Five days of pure freedom. The full Montenegrin coast at your pace — combine every route, revisit favourite spots, add a day in Croatia\'s Prevlaka, and enjoy four nights sleeping on the water.',ru:'Пять дней полной свободы. Всё побережье Черногории в вашем ритме — все маршруты, возврат к любимым местам, день в хорватской Превлаке и четыре ночи на воде.'},
+desc:{en:'Five days of pure freedom. The full Montenegrin coast at your pace — combine every route, revisit favourite spots, add a day in Croatia\'s Prevlaka, and enjoy four nights sleeping on the water.',ru:'Пять дней в вашем ритме. Всё побережье Черногории — все маршруты, возврат к любимым местам, день в хорватской Превлаке, четыре ночи на воде.'},
 itinerary:[
 {day:1,title:{en:'Boka Bay',ru:'Боко-Которский залив'},desc:{en:'Porto Montenegro → Perast → Kotor → overnight in the fjord',ru:'Порто Монтенегро → Пераст → Котор → ночь во фьорде'}},
 {day:2,title:{en:'Blue Cave & Islands',ru:'Голубая пещера и острова'},desc:{en:'Blue Cave → Mamula fortress → swimming stops → Herceg Novi promenade dinner',ru:'Голубая пещера → крепость Мамула → купание → ужин на набережной Херцег-Нови'}},
