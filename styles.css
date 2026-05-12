@@ -18,8 +18,8 @@
 .dest-desc{font-size:.8rem;line-height:1.6;color:rgba(255,255,255,.8);font-weight:300;margin-top:6px}
 .dest-card-overlay{justify-content:flex-end;padding:28px;background:linear-gradient(0deg,rgba(11,17,32,.85) 0%,rgba(11,17,32,.3) 40%,transparent 60%)}
 @media(max-width:900px){.routes-grid{grid-template-columns:1fr}}
-.route-card-actions{display:flex;gap:10px;margin-top:4px;flex-wrap:wrap}
-.route-card-actions .btn-sm{flex:1;text-align:center;justify-content:center}
+.route-card-actions{display:flex;gap:10px;margin-top:4px;flex-wrap:nowrap}
+.route-card-actions .btn-sm{flex:1 1 0;min-width:0;text-align:center;justify-content:center;white-space:nowrap}
 .btn-wa{background:#25D366;color:#fff;display:inline-flex;align-items:center;gap:6px;border-radius:var(--radius);font-weight:600;text-decoration:none;transition:background .3s}
 .btn-wa:hover{background:#1DA851}
 .btn-wa .wa-icon{width:18px;height:18px;fill:#fff;stroke:none;stroke-width:0;flex-shrink:0}
