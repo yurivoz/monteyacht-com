@@ -8,13 +8,37 @@
       ]
     },
     {
-      "source": "/(.*\\.(css|js))",
+      "source": "/(.*).css",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
       ]
     },
     {
-      "source": "/(.*\\.(svg|woff2|woff|ico))",
+      "source": "/(.*).js",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/(.*).svg",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).woff2",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).woff",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*).ico",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=2592000, immutable" }
       ]
