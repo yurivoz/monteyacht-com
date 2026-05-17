@@ -1542,6 +1542,81 @@ alert(currentLang === 'ru' ? 'Ошибка отправки. Попробуйт�
 }
 });
 }
+function initReserveForm() {
+const form = document.getElementById('reserveForm');
+if (!form) return;
+form.addEventListener('submit', async function(e) {
+e.preventDefault();
+const btn = this.querySelector('.btn-submit');
+btn.disabled = true;
+btn.textContent = T[currentLang].event_form_sending;
+const fd = new FormData(this);
+const data = Object.fromEntries(fd.entries());
+// Honeypot: silently drop bots
+if (data.website) {
+this.style.display = 'none';
+document.getElementById('reserveSuccess').style.display = 'block';
+return;
+}
+const esc = s => (s||'').replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1');
+const eventName = data.event || 'Event';
+const eventSlug = data.event_slug || '';
+const offerNote = data.offer ? '\n🎁 Couple/group rate requested' : '';
+const msg = `🎉 New Event Reservation
+
+🎟 Event: ${esc(eventName)}
+👤 Name: ${esc(data.name)}
+📞 Phone: ${esc(data.phone)}
+👥 Guests: ${esc(data.guests)}${offerNote}
+💬 Notes: ${esc(data.notes) || '—'}
+🌐 Lang: ${esc(currentLang)}`;
+try {
+const crmPayload = {
+client: {
+name: data.name,
+phone: data.phone || undefined,
+language: currentLang || 'en'
+},
+guests_count: parseInt(data.guests, 10) || undefined,
+notes: [
+'Event: ' + eventName,
+eventSlug ? 'Slug: ' + eventSlug : '',
+data.offer ? 'Wants couple/group rate' : '',
+data.notes ? 'Notes: ' + data.notes : ''
+].filter(Boolean).join('\n')
+};
+const telegramReqs = CHAT_IDS.map(id => fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify({ chat_id: id, text: msg })
+}));
+const crmReq = fetch(CRM_URL, {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify(crmPayload)
+}).catch(err => console.warn('CRM send error (non-blocking):', err));
+const [telegramRes] = await Promise.all([...telegramReqs, crmReq]);
+const result = await telegramRes.json();
+if (!result.ok) throw new Error(result.description || 'Telegram error');
+this.style.display = 'none';
+document.getElementById('reserveSuccess').style.display = 'block';
+if (typeof gtag === 'function') {
+gtag('event', 'event_reserve_submit', {
+event_slug: eventSlug,
+event_name: eventName,
+guests: data.guests,
+lang: currentLang
+});
+}
+gtag_report_conversion();
+} catch (err) {
+console.error('Reserve send error:', err);
+btn.disabled = false;
+btn.textContent = T[currentLang].event_form_submit;
+alert(T[currentLang].event_form_error);
+}
+});
+}
 function initSubscribeForm() {
 const form = document.getElementById('subscribeForm');
 if (!form) return;
@@ -1801,6 +1876,7 @@ initNav();
 setLang(getInitialLang());
 initReveal();
 initForm();
+initReserveForm();
 initSubscribeForm();
 initReviewAutoplay();
 initPromoBanner();
