@@ -1312,6 +1312,8 @@ let currentLang = 'en';
 let currentReview = 0;
 function setLang(lang) {
 currentLang = lang;
+document.body.classList.toggle('lang-ru', currentLang === 'ru');
+document.body.classList.toggle('lang-en', currentLang === 'en');
 try { localStorage.setItem('monteyacht_lang', lang); } catch(e) {}
 document.documentElement.lang = lang;
 document.title = T[lang].meta_title || document.title;
